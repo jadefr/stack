@@ -1,5 +1,7 @@
 package com.company;
 
+import java.util.spi.AbstractResourceBundleProvider;
+
 public class Stack {
     int size;
     int top;
@@ -28,7 +30,14 @@ public class Stack {
 
     public int pop() {
         //deletes the last value by taking out its reference
-        top --;
+
+        if (top > 0) {
+            top --;
+        }
+        else {
+            System.out.println("Stack Underflow");
+            return -100;
+        }
         return stack[top];
     }
 

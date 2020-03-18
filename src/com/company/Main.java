@@ -4,7 +4,8 @@ public class Main {
 
     public static void main(String[] args) {
 
-        Stack stack = new Stack(20);
+        Stack stack = new Stack(10);
+
 
         stack.push(10);
         stack.push(20);
@@ -26,6 +27,19 @@ public class Main {
 
         int peek = stack.peek();
         System.out.println("peek: " + peek);
+
+        stack.pop();
+        stack.pop();
+        stack.pop();
+        stack.pop();
+        stack.pop();
+        stack.pop();
+        stack.pop();
+        stack.pop();
+        stack.pop();
+
+        stack.push(140);
+        stack.push(150);
 
         stack.print();
     }
