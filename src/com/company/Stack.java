@@ -22,8 +22,7 @@ public class Stack {
 
     public void print() {
         while (top > 0) {
-            System.out.print(stack[top - 1] + " ");
-            top --;
+            System.out.print(pop() + " ");
         }
     }
 
