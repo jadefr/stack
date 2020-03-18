@@ -31,4 +31,8 @@ public class Stack {
         top --;
         return stack[top];
     }
+
+    public int peek() {
+        return stack[top - 1];
+    }
 }

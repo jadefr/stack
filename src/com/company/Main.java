@@ -19,10 +19,13 @@ public class Main {
         stack.push(110);
 
         int firstPop = stack.pop();
-        System.out.println(firstPop);
+        System.out.println("first pop: " + firstPop);
 
         int secondPop = stack.pop();
-        System.out.println(secondPop);
+        System.out.println("second pop: " + secondPop);
+
+        int peek = stack.peek();
+        System.out.println("peek: " + peek);
 
         stack.print();
     }
