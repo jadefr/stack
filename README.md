@@ -1,10 +1,13 @@
 # stack
 Pilha em Java
 
-# Funcionamento (FILO)
-O usuário seta o tamanho da pilha e adiciona valores sempre no topo desta.
+# Funcionamento
 
-Assim como a inserção, a remoção é feita no topo da pilha.
+* FILO (first in last out)
+
+* O usuário seta o tamanho da pilha e adiciona valores sempre no topo desta.
+
+* Assim como a inserção, a remoção é feita no topo da pilha.
 
 # Métodos
 
