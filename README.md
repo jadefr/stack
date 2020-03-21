@@ -23,3 +23,7 @@ Pilha em Java
   
 * print()
   * printa a pilha (from top to bottom)
+
+## Representação Gráfica
+
+![Image of screenshot](https://raw.githubusercontent.com/jadefr/ontology-testing/master/stack.png)
